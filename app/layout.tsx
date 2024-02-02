@@ -8,6 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Gaurav - Frontend Developer",
   description: "",
+  icons:"/public/glaxy.png"
  
 };
 
