@@ -20,7 +20,7 @@ const HeroContent = () => {
           className="Welcome-box py-[8px] px-[4px] border border-[#7042f88b] opacity-[0.9]"
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
-          <h1 className="Welcome-text text-[13px]">Frontend Developer Portfolio</h1>
+          <h1 className="Welcome-text text-[13px]">Welcome aboard!</h1>
         </motion.div>
 
         <motion.div
@@ -40,7 +40,7 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          I&apos;m a Frontend Engineer with experience in building webapps and currently learning MERN stack Check out my projects and skills
+          I&apos;m a Frontend Engineer with experience in building webapps and currently learning MERN stack. Check out my projects and skills
         </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}

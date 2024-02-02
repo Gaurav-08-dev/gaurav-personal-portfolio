@@ -8,6 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Gaurav - Frontend Developer",
   description: "",
+ 
 };
 
 export default function RootLayout({
@@ -20,7 +21,7 @@ export default function RootLayout({
       <body
         className={`${inter.className} bg-[#030014] overflow-y-scroll overflow-x-hidden`}
       >
-        <StarCanvas/>
+        <StarCanvas />
         {children}
       </body>
     </html>
