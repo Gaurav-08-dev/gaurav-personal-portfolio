@@ -9,7 +9,6 @@ export const metadata: Metadata = {
   title: "Gaurav - Frontend Developer",
   description: "",
   icons:"/public/glaxy.png"
- 
 };
 
 export default function RootLayout({
