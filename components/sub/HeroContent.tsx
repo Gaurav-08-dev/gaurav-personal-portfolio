@@ -45,6 +45,8 @@ const HeroContent = () => {
         <motion.a
           variants={slideInFromLeft(1)}
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+          href="https://github.com/Gaurav-08-dev"
+          target="_blank"
         >
           Learn More!
         </motion.a>
