@@ -84,14 +84,17 @@ export const Skill_data = [
     {
       name: "Linkedin",
       src: "/linkedin.svg",
+      href:"https://www.linkedin.com/in/gaurav-singh-08/"
     },
     {
       name: "Twitter",
       src: "/twitter.svg",
+      href:"https://twitter.com/dev_gaurav_"
     },
     {
       name: "Github",
       src: "/github.svg",
+      href:"https://github.com/Gaurav-08-dev"
     },
   ];
   

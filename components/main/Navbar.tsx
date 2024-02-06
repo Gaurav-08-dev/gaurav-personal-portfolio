@@ -1,6 +1,9 @@
 import React from "react";
 import Image from "next/image";
 import { Socials } from "@/constants";
+import { CiLinkedin, CiTwitter } from "react-icons/ci";
+import { FiGithub } from "react-icons/fi";
+
 
 const Navbar = () => {
   return (
@@ -48,17 +51,23 @@ const Navbar = () => {
             </a>
           </div>
         </div>
-          <div className="flex flex-row gap-5">
-            {Socials.map((social) => (
-              <Image
-                src={social.src}
-                alt={social.name}
-                key={social.name}
-                width={24}
-                height={24}
-              />
-            ))}
-          </div>
+        <div className="flex flex-row gap-5">
+          {Socials.map((social) => (
+            <a href={social.href} key={social.name} title={social.name} target="_blank">
+              {social.name === "Linkedin" && (
+                <CiLinkedin style={{ color: "white" }} size={"2rem"} />
+              )}
+
+              {social.name === "Twitter" && (
+                <CiTwitter style={{ color: "white" }} size={"2rem"} />
+              )}
+
+              {social.name === "Github" && (
+                <FiGithub style={{ color: "white" }} size={"2rem"} />
+              )}
+            </a>
+          ))}
+        </div>
       </div>
     </div>
   );
