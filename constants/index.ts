@@ -59,24 +59,24 @@ export const Skill_data = [
       width: 80,
       height: 80,
     },
-    // {
-    //   skill_name: "Stripe Payment",
-    //   Image: "/stripe.webp",
-    //   width: 80,
-    //   height: 80,
-    // },
+    {
+      skill_name: "Stripe Payment",
+      Image: "/stripe.webp",
+      width: 80,
+      height: 80,
+    },
     {
       skill_name: "Node js",
       Image: "/node-js.png",
       width: 80,
       height: 80,
     },
-    // {
-    //   skill_name: "Mongo db",
-    //   Image: "/mongodb.png",
-    //   width: 40,
-    //   height: 40,
-    // },
+    {
+      skill_name: "Mongo db",
+      Image: "/mongodb.png",
+      width: 40,
+      height: 40,
+    },
   
   ];
   
