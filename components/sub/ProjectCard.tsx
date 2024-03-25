@@ -16,7 +16,7 @@ const ProjectCard = ({ src, title, description, url }: Props) => {
       target="_blank"
       className="text-slate-100 hover:text-violet-400"
     >
-      <div className="overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] h-[283px]">
+      <div className="overflow-hidden rounded-lg shadow-lg border border-[#2A0E61]">
         <Image
           src={src}
           alt={title}
