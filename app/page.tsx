@@ -4,13 +4,11 @@ import Projects from "@/components/main/Projects";
 
 export default function Home() {
   return (
-    <main className="h-full w-full">
-      <div className="flex flex-col gap-20">
+    <main className="h-full w-full pt-[65px]">
+      <div className="flex flex-col gap-10 md:gap-20">
         <Hero />
         <Skills />
-        <Projects/>
-        
-
+        <Projects />
       </div>
     </main>
   );

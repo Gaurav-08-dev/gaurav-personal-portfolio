@@ -10,7 +10,7 @@ import {
     return (
       <section
         id="skills"
-        className="flex flex-col items-center justify-center gap-3 h-full relative overflow-hidden pb-80 py-20"
+        className="flex flex-col items-center justify-center gap-3 h-full relative overflow-hidden pb-20 py-10 md:py-20 px-4"
         style={{ transform: "scale(1)" }}
       >
         <SkillText />
@@ -75,7 +75,13 @@ import {
         </div> */}
   
         <div className="w-full h-full absolute">
-          <div className="w-full h-full z-[-10] opacity-30 absolute flex items-center justify-center bg-cover">
+          <div
+            className="hidden md:flex w-full h-full z-[-10] opacity-30 absolute items-center justify-center bg-cover"
+            style={{
+              maskImage: "linear-gradient(to bottom, black 60%, transparent 100%)",
+              WebkitMaskImage: "linear-gradient(to bottom, black 60%, transparent 100%)",
+            }}
+          >
             <video
               className="w-full h-auto"
               preload="false"
